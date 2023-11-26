@@ -44,7 +44,7 @@ export const connectKeplr = async () => {
             // Actual denom (i.e. uatom, uscrt) used by the blockchain.
             coinMinimalDenom: process.env.NEXT_PUBLIC_STAKING_DENOM,
             // # of decimal points to convert minimal denomination to user-facing denomination.
-            coinDecimals: 6,
+            coinDecimals: 18,
             // (Optional) Keplr can show the fiat value of the coin if a coingecko id is provided.
             // You can get id from https://api.coingecko.com/api/v3/coins/list if it is listed.
             // coinGeckoId: ""
@@ -75,7 +75,7 @@ export const connectKeplr = async () => {
               // Actual denom (i.e. uatom, uscrt) used by the blockchain.
               coinMinimalDenom: process.env.NEXT_PUBLIC_STAKING_DENOM,
               // # of decimal points to convert minimal denomination to user-facing denomination.
-              coinDecimals: 6,
+              coinDecimals: 18,
               // (Optional) Keplr can show the fiat value of the coin if a coingecko id is provided.
               // You can get id from https://api.coingecko.com/api/v3/coins/list if it is listed.
               // coinGeckoId: ""
@@ -89,7 +89,7 @@ export const connectKeplr = async () => {
               // Actual denom (i.e. uatom, uscrt) used by the blockchain.
               coinMinimalDenom: process.env.NEXT_PUBLIC_STAKING_DENOM,
               // # of decimal points to convert minimal denomination to user-facing denomination.
-              coinDecimals: 6,
+              coinDecimals: 18,
               // (Optional) Keplr can show the fiat value of the coin if a coingecko id is provided.
               // You can get id from https://api.coingecko.com/api/v3/coins/list if it is listed.
               // coinGeckoId: ""
